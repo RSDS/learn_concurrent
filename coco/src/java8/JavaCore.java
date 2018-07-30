@@ -1,5 +1,7 @@
 package java8;
 
+import java.util.Objects;
+
 /**
  * Description:
  * Author:             徐少斌
@@ -26,10 +28,11 @@ public class JavaCore {
 
         System.out.println("+++++++++++++++++++++++++=");
 
-        BigApple bigApple = new BigApple();
+//        BigApple bigApple = new BigApple();
         if (x instanceof BigApple){
             System.out.println("BigApple is a kind of Apple");
         }
+
 
 
     }
